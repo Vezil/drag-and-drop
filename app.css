@@ -8,6 +8,7 @@ html {
 
 body {
     margin: 0;
+    background-color: #575757;
 }
 
 label,
@@ -15,6 +16,11 @@ input,
 textarea {
     display: block;
     margin: 0.5rem 0;
+}
+
+input,
+textarea {
+    background-color: #575757;
 }
 
 label {
@@ -33,7 +39,8 @@ textarea {
 input:focus,
 textarea:focus {
     outline: none;
-    background: #fff5f9;
+    background: #575757;
+    color: white;
 }
 
 button {
@@ -123,5 +130,5 @@ button:active {
     margin: 1rem;
     padding: 1rem;
     border: 1px solid #ff0062;
-    background: #f7f7f7;
+    background: #8d8a8a;
 }
