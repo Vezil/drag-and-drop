@@ -1,8 +1,3 @@
-export enum ProjectStatus {
-    Active,
-    Finished
-}
-
 export class Project {
     constructor(
         public id: string,
@@ -11,4 +6,9 @@ export class Project {
         public people: number,
         public status: ProjectStatus
     ) {}
+}
+
+export enum ProjectStatus {
+    Active,
+    Finished
 }
